@@ -2,23 +2,23 @@ version: "3.8"
 
 services:
   mongo:
-    container_name: cryptocurrencies-mongo
+    container_name: coins-mongo
     image: mongo
     restart: unless-stopped
     networks:
-      - cryptocurrencies-network
+      - coins-network
     volumes:
       - mongo-data:/data/db
     ports:
       - ${MONGO_PORT}:27017
 
   redis:
-    container_name: cryptocurrencies-redis
+    container_name: coins-redis
     image: redis:alpine
     command: redis-server --requirepass ${REDIS_PASS}
     restart: unless-stopped
     networks:
-      - cryptocurrencies-network
+      - coins-network
     volumes:
       - redis-data:/data
       - redis-dump:/var/lib/redis
@@ -26,22 +26,22 @@ services:
       - ${REDIS_PORT}:6379
 
   server:
-    container_name: cryptocurrencies-server
+    container_name: coins-server
     build: .
     environment:
-      - MONGO_HOST=mongodb://mongo:27017/cryptocurrencies
-      - REDIS_HOST=redis://cryptocurrencies-redis/?password=${REDIS_PASS}
+      - MONGO_HOST=mongodb://mongo:27017/coins
+      - REDIS_HOST=redis://coins-redis/?password=${REDIS_PASS}
     depends_on:
       - mongo
       - redis
     restart: unless-stopped
     networks:
-      - cryptocurrencies-network
+      - coins-network
     ports:
       - ${PORT}:${PORT}
 
 networks:
-  cryptocurrencies-network:
+  coins-network:
     driver: bridge
 
 volumes:

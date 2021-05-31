@@ -1,0 +1,12 @@
+{
+  "name": "coins-models",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "runtypes": "^6.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}

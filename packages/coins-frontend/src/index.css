@@ -1,0 +1,22 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #171c24;
+  height: -webkit-fill-available;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+noscript {
+  color: white;
+}

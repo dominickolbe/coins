@@ -1,6 +1,6 @@
 {
   "name": "coins",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "UNLICENSED",
   "private": true,
   "author": "Dominic Kolbe <kolbedominic@gmail.com>",
@@ -22,7 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^4.3.2",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.2"
   }
 }

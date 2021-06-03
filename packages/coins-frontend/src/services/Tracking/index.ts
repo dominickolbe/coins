@@ -4,7 +4,7 @@ import { GA_TRACKING_ID } from "../../config";
 export const Tracking = {
   initialize: () => {
     if (process.env.NODE_ENV === "production") {
-      if (GA_TRACKING_ID) {
+      if (GA_TRACKING_ID !== null) {
         ReactGA.initialize(GA_TRACKING_ID);
         ReactGA.pageview("/");
       }

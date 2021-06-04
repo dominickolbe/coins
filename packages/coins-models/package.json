@@ -4,9 +4,9 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "runtypes": "^6.3.0"
+    "runtypes": "6.3.0"
   },
   "devDependencies": {
-    "typescript": "^4.3.2"
+    "typescript": "4.3.2"
   }
 }

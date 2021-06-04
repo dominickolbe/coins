@@ -12,6 +12,7 @@ import { CoinsList } from "../../components/CoinsList";
 import { PageContainer } from "../../components/PageContainer";
 import { Placeholder } from "../../components/Placeholder";
 import { Search } from "../../components/Search";
+import { usePageview } from "../../services/Tracking/usePageview";
 import { useStore } from "../../store";
 import { filterCoinsBy } from "../../utils";
 
@@ -22,6 +23,8 @@ const Coins = () => {
     state: { coins },
     actions,
   } = useStore();
+
+  usePageview("/coins");
 
   const [query, setQuery] = useState("");
 

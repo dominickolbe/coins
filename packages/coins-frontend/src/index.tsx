@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { App } from "./App";
 import "./index.css";
-import { Tracking } from "./services/Tracking";
+import { initializeTracking } from "./services/TrackingProvider";
 import { config } from "./store";
 
 const store = createOvermind(config, { devtools: false });
@@ -16,4 +16,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-Tracking.initialize();
+initializeTracking();

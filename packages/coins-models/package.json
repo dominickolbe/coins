@@ -4,9 +4,10 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "mongoose": "5.12.12",
     "runtypes": "6.3.0"
   },
   "devDependencies": {
-    "typescript": "4.3.2"
+    "@types/mongoose": "5.11.97"
   }
 }

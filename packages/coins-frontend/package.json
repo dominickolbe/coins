@@ -16,7 +16,7 @@
     "@sentry/browser": "6.5.1",
     "axios": "0.21.1",
     "lodash": "4.17.21",
-    "option-t": "27.2.0",
+    "option-t": "28.1.0",
     "overmind": "27.0.0",
     "overmind-react": "28.0.0",
     "react": "17.0.2",

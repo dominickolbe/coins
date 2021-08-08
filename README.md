@@ -20,10 +20,10 @@ https://coins.domnc.app
 
 I build this entire project with the following setup:
 
-- macOS Big Sur version 11.5 Beta
-- node v16.2.0
-- npm 7.13.0
-- yarn v1.22.10
+- macOS Monterey v12.0 Beta
+- node v16.6.1
+- yarn v1.22.11
+- npm v7.20.3
 - Docker version 20.10.6, build 370c289
 
 ---

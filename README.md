@@ -4,7 +4,7 @@
   <p align="center">simple and easy to track your crypto.<p>
 </p>
 
-### Preview
+## Preview
 
 [see live version here](https://coins.domnc.app)
 
@@ -18,15 +18,13 @@ https://coins.domnc.app
 
 ### Prerequisites
 
-I build this entire project with the following setup:
+I build this project with the following setup:
 
 - macOS Monterey v12.0 Beta
-- node v16.6.1
+- node v16.6.2
 - yarn v1.22.11
 - npm v7.20.3
-- Docker version 20.10.6, build 370c289
-
----
+- Docker v20.10.7
 
 ### Development
 
@@ -49,8 +47,6 @@ yarn start:dev:frontend
 ```bash
 yarn start:dev:server
 ```
-
----
 
 ## Production
 

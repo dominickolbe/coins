@@ -1,3 +1,7 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/coins/Test?label=tests)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/coins/Release?label=release)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/coins)
+
 <p align="center">
   <p align="center">:money_with_wings: :money_with_wings: :money_with_wings:</p>
   <h3 align="center">coins</h3>

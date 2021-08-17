@@ -8,6 +8,8 @@
   <p align="center">simple and easy to track your crypto.<p>
 </p>
 
+![Preview](https://github.com/dominickolbe/coins/blob/master/preview.png?raw=true "coins.domnc.app")
+
 ## Preview
 
 [see live version here](https://coins.domnc.app)

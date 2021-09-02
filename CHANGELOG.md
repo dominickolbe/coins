@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.3](https://github.com/dominickolbe/coins/compare/v1.7.2...v1.7.3) (2021-09-02)
+
+
+### Refactoring
+
+* github workflow name ([08547b1](https://github.com/dominickolbe/coins/commit/08547b1d9015096218b6ba3a2a9abad9addb9e0a))
+
+
+### Chores
+
+* update dependencies ([9f2913d](https://github.com/dominickolbe/coins/commit/9f2913d4cc9b41960c2375b879c4b5df1384013d))
+
 ### [1.7.2](https://github.com/dominickolbe/coins/compare/v1.7.1...v1.7.2) (2021-08-24)
 
 

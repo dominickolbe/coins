@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/dominickolbe/coins/compare/v1.7.3...v1.8.0) (2021-09-03)
+
+
+### Bug Fixes
+
+* remove mongo connection options ([f758d50](https://github.com/dominickolbe/coins/commit/f758d50f1e86f0befbcae4de48d2545470c3f778))
+* remove mongo useCreateIndex ([3d3b553](https://github.com/dominickolbe/coins/commit/3d3b553c8c4706695fcd8c3c747e1e3e4ce98878))
+
+
+### Documentation
+
+* README.md ([b7d3ac8](https://github.com/dominickolbe/coins/commit/b7d3ac8639f551817ca11dccdd3b8b6c38942cca))
+
+
+### Chores
+
+* CS ([6f49760](https://github.com/dominickolbe/coins/commit/6f497607e9021cbc8295d9f160713945005402f4))
+* rename createMuiTheme - deprecated ([f00630c](https://github.com/dominickolbe/coins/commit/f00630cea545bf780b648f8fad6c8b126a69372a))
+* yarn.lock ([1d1e41f](https://github.com/dominickolbe/coins/commit/1d1e41fd24fa1faad19661db540b545e3df78038))
+
+
+### Refactoring
+
+* change build time format ([25702a4](https://github.com/dominickolbe/coins/commit/25702a40f8b7692cf48185d8643ce65ba82ec901))
+* tsconfig.json files ([ef69419](https://github.com/dominickolbe/coins/commit/ef69419ab7c1f46c534091b8db018e5e45b4ad98))
+
 ### [1.7.3](https://github.com/dominickolbe/coins/compare/v1.7.2...v1.7.3) (2021-09-02)
 
 

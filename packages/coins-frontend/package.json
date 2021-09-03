@@ -4,8 +4,8 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "REACT_APP_BUILD_TIME=$(date '+%x %X') react-scripts start",
-    "build": "REACT_APP_BUILD_TIME=$(date '+%x %X') react-scripts build"
+    "start": "REACT_APP_BUILD_TIME=$(date '+%c') react-scripts start",
+    "build": "REACT_APP_BUILD_TIME=$(date '+%c') react-scripts build"
   },
   "dependencies": {
     "@coingecko/cryptoformat": "0.4.4",

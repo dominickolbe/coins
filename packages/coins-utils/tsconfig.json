@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
-    "module": "commonjs",
-    "target": "es2019",
     "allowJs": true,
-    "outDir": "build",
-    "rootDir": "src",
-    "strict": true,
-    "noImplicitAny": true,
     "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "noImplicitAny": true,
     "resolveJsonModule": true,
+    "rootDir": "./",
+    "strict": true,
+    "target": "esnext",
     "typeRoots": ["./node_modules/@types"]
   }
 }

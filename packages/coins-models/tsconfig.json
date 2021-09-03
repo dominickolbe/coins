@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
-    "module": "commonjs",
-    "target": "es2019",
     "allowJs": true,
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
     "rootDir": "./",
     "strict": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
+    "target": "esnext",
     "typeRoots": ["./node_modules/@types"]
   }
 }

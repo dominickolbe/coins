@@ -1,7 +1,6 @@
 import { HTTP_STATUS_OK } from "coins-utils/src";
 import Koa from "koa";
-import { CACHE_DISABLED, CUSTOM_HEADER } from "../config";
-import { CACHE_TTL_DEFAULT } from "../config";
+import { CACHE_DISABLED, CACHE_TTL_DEFAULT, CUSTOM_HEADER } from "../config";
 import { RedisCtrl } from "../database/redis";
 
 export const checkCacheHeader = (ctx: Koa.Context, next: Koa.Next) => {

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/dominickolbe/coins/compare/v1.8.0...v1.9.0) (2021-09-03)
+
+
+### Bug Fixes
+
+* downgrade mongo to 4.2 ([a5e19b9](https://github.com/dominickolbe/coins/commit/a5e19b9aef36949cf6adbcc91c45e1fda4d3ba8c))
+
 ## [1.8.0](https://github.com/dominickolbe/coins/compare/v1.7.3...v1.8.0) (2021-09-03)
 
 

@@ -1,7 +1,6 @@
 import { ICoin } from "coins-models/types";
 import mongoose from "mongoose";
 
-mongoose.set("useCreateIndex", true);
 const CoinScheme = new mongoose.Schema(
   {
     coinId: {

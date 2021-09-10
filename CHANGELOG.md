@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.2](https://github.com/dominickolbe/coins/compare/v1.9.1...v1.9.2) (2021-09-10)
+
+
+### Bug Fixes
+
+* github action node version ([ee44b16](https://github.com/dominickolbe/coins/commit/ee44b1601da9a2a5faf7adb7835b500134efa555))
+
 ### [1.9.1](https://github.com/dominickolbe/coins/compare/v1.9.0...v1.9.1) (2021-09-10)
 
 

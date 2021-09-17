@@ -13,8 +13,8 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { useStore } from "./store";
 import { theme, useStyles } from "./theme";
 
-const Coins = lazy(() => import("./routes/Coins"));
-const Status = lazy(() => import("./routes/Status"));
+const Coins = lazy(() => import("./pages/Coins"));
+const Status = lazy(() => import("./pages/Status"));
 
 export const App = () => {
   const classes = useStyles();

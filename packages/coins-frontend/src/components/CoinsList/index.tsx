@@ -113,7 +113,7 @@ export const CoinsList = (props: {
           </List>
         </Grid>
       ) : (
-        <Grid item xs={12} justify="center" container>
+        <Grid item xs={12} justifyContent="center" container>
           <Typography variant="subtitle2">no entries found.</Typography>
         </Grid>
       )}

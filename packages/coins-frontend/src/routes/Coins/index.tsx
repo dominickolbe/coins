@@ -83,7 +83,7 @@ const Coins = () => {
               />
             </Grid>
             {filteredItems.length > itemsPerPage && (
-              <Grid item xs={12} justify="center" container>
+              <Grid item xs={12} justifyContent="center" container>
                 <Pagination
                   page={page}
                   count={pageTotal}
@@ -95,7 +95,7 @@ const Coins = () => {
             )}
           </>
         ) : (
-          <Grid item xs={12} justify="center" container>
+          <Grid item xs={12} justifyContent="center" container>
             <Typography variant="subtitle2">no entries yet.</Typography>
           </Grid>
         )}

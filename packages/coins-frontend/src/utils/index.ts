@@ -15,3 +15,10 @@ export const findCoinById = (coins: Coin[], id: string) => {
   if (!coin) throw new Error(`coin with id: ${id} not found`);
   return coin;
 };
+
+export const scrollToTop = ({ behavior }: { behavior: "smooth" | "auto" }) => {
+  window.scrollTo({
+    top: 0,
+    behavior: behavior ? behavior : "auto",
+  });
+};

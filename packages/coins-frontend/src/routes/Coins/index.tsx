@@ -14,7 +14,7 @@ import { Placeholder } from "../../components/Placeholder";
 import { Search } from "../../components/Search";
 import { usePageview } from "../../services/Tracking/usePageview";
 import { useStore } from "../../store";
-import { filterCoinsBy } from "../../utils";
+import { filterCoinsBy, scrollToTop } from "../../utils";
 
 const itemsPerPage = 10;
 
@@ -87,7 +87,10 @@ const Coins = () => {
                 <Pagination
                   page={page}
                   count={pageTotal}
-                  onChange={(e, page: number) => setPage(page)}
+                  onChange={(e, page: number) => {
+                    scrollToTop({ behavior: "smooth" });
+                    setPage(page);
+                  }}
                   shape="rounded"
                   size="small"
                 />

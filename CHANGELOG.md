@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/dominickolbe/coins/compare/v1.9.3...v1.10.0) (2021-09-17)
+
+
+### Features
+
+* add AppFooter and refactor env ([9749005](https://github.com/dominickolbe/coins/commit/97490058c0ff12b984c8bb9ab532ed36d981838c))
+
+
+### Refactoring
+
+* favicon and manifest ([6ca8207](https://github.com/dominickolbe/coins/commit/6ca8207a2098701988b98e4a74d17678bfeb45db))
+* page paths ([622b570](https://github.com/dominickolbe/coins/commit/622b57091ec561f3f5cc1df50cdd85e49d5e6eaf))
+* scrollToTop ([a065a27](https://github.com/dominickolbe/coins/commit/a065a273e8a36fe5fa556b9aa51dda19b4b873cf))
+
+
+### Chores
+
+* google font ([c29dbdd](https://github.com/dominickolbe/coins/commit/c29dbddfbd26117770cc9efb86791b60f79b5018))
+* refactor deprecated mu api ([d6cfde3](https://github.com/dominickolbe/coins/commit/d6cfde359b4ddd6e27ffdb690875dec13cf26830))
+* update dependencies ([9a9762e](https://github.com/dominickolbe/coins/commit/9a9762e8a196ca0c389b4cea2c104e174d70f798))
+
 ### [1.9.3](https://github.com/dominickolbe/coins/compare/v1.9.2...v1.9.3) (2021-09-15)
 
 

@@ -11,7 +11,7 @@ const styles = {
     width: 100%;
   `,
   title: css`
-    font-weight: 600;
+    font-weight: 700;
   `,
   titleCenter: css`
     text-align: center;

@@ -1,3 +1,6 @@
 // APP
-export const APP_NAME = process.env.REACT_APP_NAME ?? "APP_NAME_MISSING";
-export const API_BASE = process.env.REACT_APP_API_URL ?? null;
+export const APP_NAME = process.env.REACT_APP_NAME ?? "undefined";
+export const APP_VERSION = process.env.REACT_APP_VERSION ?? "undefined";
+export const APP_BUILD_TIME = process.env.REACT_APP_BUILD_TIME ?? "undefined";
+
+export const API_URL = process.env.REACT_APP_API_URL ?? null;

@@ -7,6 +7,7 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import { AppFooter } from "./components/AppFooter";
 import { FullPageLoader } from "./components/FullPageLoader";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { useStore } from "./store";
@@ -46,6 +47,9 @@ export const App = () => {
             )}
           </Suspense>
         </main>
+        <footer>
+          <AppFooter />
+        </footer>
       </Router>
     </ThemeProvider>
   );

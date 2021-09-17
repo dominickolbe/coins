@@ -125,6 +125,11 @@ export const theme = createTheme({
         fontSize: ".8rem",
       },
     },
+    MuiAppBar: {
+      colorPrimary: {
+        backgroundColor: "#161B25",
+      },
+    },
   },
 });
 
@@ -132,6 +137,9 @@ export const useStyles = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
     display: "flex",
+  },
+  fontBold: {
+    fontWeight: theme.typography.fontWeightBold,
   },
 }));
 

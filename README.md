@@ -1,6 +1,6 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/coins/Tests?label=tests)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/coins/Release?label=release)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/coins)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/coins?color=%23688eff&style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/dominickolbe/coins?color=%23688eff&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/coins/Tests?color=%237DD420&label=tests&style=flat-square)
 
 <p align="center">
   <p align="center">:money_with_wings: :money_with_wings: :money_with_wings:</p>

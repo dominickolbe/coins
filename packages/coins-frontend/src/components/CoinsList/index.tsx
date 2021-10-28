@@ -2,6 +2,7 @@ import { css } from "@emotion/css";
 import Avatar from "@material-ui/core/Avatar";
 import Grid from "@material-ui/core/Grid";
 import List from "@material-ui/core/List";
+import Tooltip from "@material-ui/core/Tooltip";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
@@ -24,11 +25,7 @@ export const CoinsList = (props: {
           <List>
             {coins.map((coin) => {
               return (
-                <ListItem
-                  key={coin.coinId}
-                  button
-                  onClick={() => props.onClick(coin)}
-                >
+                <ListItem key={coin.coinId} onClick={() => props.onClick(coin)}>
                   <ListItemIcon
                     className={css`
                       margin-right: 0;
@@ -81,15 +78,17 @@ export const CoinsList = (props: {
                       text-align: right;
                     `}
                     primary={
-                      <Typography
-                        variant="body1"
-                        className={css`
-                          font-weight: 600;
-                          letter-spacing: 1.1px;
-                        `}
-                      >
-                        {formatCurrency(coin.price)}
-                      </Typography>
+                      <Tooltip title={coin.updatedAt} placement="right">
+                        <Typography
+                          variant="body1"
+                          className={css`
+                            font-weight: 600;
+                            letter-spacing: 1.1px;
+                          `}
+                        >
+                          {formatCurrency(coin.price)}
+                        </Typography>
+                      </Tooltip>
                     }
                     secondary={
                       <Typography

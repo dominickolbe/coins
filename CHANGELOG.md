@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.3](https://github.com/dominickolbe/coins/compare/v1.11.2...v1.11.3) (2021-11-08)
+
+
+### Bug Fixes
+
+* react-router dependencies downgrade ([c09f845](https://github.com/dominickolbe/coins/commit/c09f845efa8b91907e1af0d52820a53fb4812c99))
+
 ### [1.11.2](https://github.com/dominickolbe/coins/compare/v1.11.1...v1.11.2) (2021-11-07)
 
 

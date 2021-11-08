@@ -15,7 +15,7 @@
     "koa-bodyparser": "4.3.0",
     "koa-router": "10.1.1",
     "mongoose": "6.0.12",
-    "option-t": "28.2.2",
+    "option-t": "29.0.2",
     "redis": "3.1.2",
     "ts-node": "10.4.0"
   },

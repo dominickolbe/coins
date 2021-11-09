@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.4](https://github.com/dominickolbe/coins/compare/v1.11.3...v1.11.4) (2021-11-09)
+
+
+### Chores
+
+* update dependencies ([9d20c35](https://github.com/dominickolbe/coins/commit/9d20c35674287505809f15d49c67ce7e5be0dca7))
+
 ### [1.11.3](https://github.com/dominickolbe/coins/compare/v1.11.2...v1.11.3) (2021-11-08)
 
 

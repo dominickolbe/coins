@@ -133,13 +133,10 @@ export const theme = createTheme({
   },
 });
 
-export const useStyles = makeStyles((theme) => ({
+export const useStyles = makeStyles(() => ({
   content: {
     flexGrow: 1,
     display: "flex",
-  },
-  fontBold: {
-    fontWeight: theme.typography.fontWeightBold,
   },
 }));
 

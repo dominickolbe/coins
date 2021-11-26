@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/dominickolbe/coins/compare/v1.12.4...v1.13.0) (2021-11-26)
+
+
+### Bug Fixes
+
+* new redis version ([3b2893c](https://github.com/dominickolbe/coins/commit/3b2893c05561f61620ca05824f3fc185c2c154ab))
+
 ### [1.12.4](https://github.com/dominickolbe/coins/compare/v1.12.3...v1.12.4) (2021-11-26)
 
 

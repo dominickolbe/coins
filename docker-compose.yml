@@ -15,7 +15,7 @@ services:
   redis:
     container_name: coins-redis
     image: redis:alpine
-    command: redis-server --requirepass ${REDIS_PASS}
+    command: redis-server
     restart: unless-stopped
     networks:
       - coins-network

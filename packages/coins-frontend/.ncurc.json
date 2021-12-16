@@ -1,3 +1,3 @@
 {
-  "reject": ["overmind", "overmind-react", "react-router-dom"]
+  "reject": ["overmind", "overmind-react", "react-router-dom", "react-scripts"]
 }

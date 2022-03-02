@@ -17,7 +17,7 @@
     "mongoose": "6.2.4",
     "option-t": "30.0.0",
     "redis": "4.0.4",
-    "ts-node": "10.5.0"
+    "ts-node": "10.6.0"
   },
   "devDependencies": {
     "@types/axios": "0.14.0",
